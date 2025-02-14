@@ -34,7 +34,7 @@ InterVeda allows users to practice technical and behavioral interview questions 
 - **[Drizzle ORM](https://drizzle.team/)**: ORM for managing database interactions with PostgreSQL (Neon).
 - **[Gemini AI](https://gemini.ai/)**: AI API for generating interview questions and analyzing answers.
 - **[Clerk](https://clerk.dev/)**: Authentication and user management.
-- **[Razorpay](https://razorpay.com/)**: Payment gateway for Prime Membership.
+
 
 ## Getting Started
 
@@ -43,7 +43,7 @@ To get started with the project, follow these steps:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/kanishkpatel1/InterVeda.git
+   git clone https://github.com/Palak-Dhakrey/InterVeda.git
 Navigate to the project directory:
 
 bash
@@ -105,13 +105,4 @@ For more details, please refer to the CONTRIBUTING.md.
 License
 This project is licensed under the MIT License. See the LICENSE file for details.
 
-Contact
-For any inquiries, feel free to reach out:
 
-LinkedIn: Kanishk Patel
-
-Instagram: @kanishkpatel1
-
-Gmail: kanishkpatel1@gmail.com
-
-<a href="https://www.linkedin.com/in/kanishkpatel1/" target="_blank"> <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"> </a> <a href="https://www.instagram.com/kanishkpatel1/" target="_blank"> <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram"> </a> <a href="mailto:kanishkpatel1@gmail.com" target="_blank"> <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail"> </a> ```
