@@ -1,0 +1,39 @@
+trigger:
+- main  # or 'master', depending on your repo
+
+pool:
+  vmImage: 'ubuntu-latest'
+
+variables:
+  node_version: '18.x'     # or use the Node version your project uses
+
+steps:
+
+# Step 1: Use Node.js
+- task: UseNode@1
+  inputs:
+    versionSpec: '$(node_version)'
+  displayName: 'Set Node.js Version'
+
+# Step 2: Install dependencies
+- script: |
+    npm install
+  displayName: 'Install NPM packages'
+
+# Step 3: Run tests (adjust if you use Jest/Mocha or other)
+- script: |
+    npm run test
+  displayName: 'Run Tests'
+
+# Step 4: Build Next.js app (for production)
+- script: |
+    npm run build
+  displayName: 'Build the app'
+
+# Step 5: (Optional) Start app in dev or prod mode — mostly for testing (not needed in CI)
+# - script: |
+#     npm run start
+#   displayName: 'Start the App'
+
+# You can add Docker build/push and deployment steps after this if needed
+
