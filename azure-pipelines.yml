@@ -10,7 +10,7 @@ variables:
 steps:
 
 # Step 1: Use Node.js
-- task: UseNode@1
+- task: NodeTool@0
   inputs:
     versionSpec: '$(node_version)'
   displayName: 'Set Node.js Version'
